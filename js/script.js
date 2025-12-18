@@ -43,6 +43,17 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', updateActiveNav);
   updateActiveNav(); // Initialisation
 
+  // Protection email contre le spam
+  const emailLink = document.getElementById('email-link');
+  if (emailLink) {
+    emailLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      const user = this.getAttribute('data-user');
+      const domain = this.getAttribute('data-domain');
+      window.location.href = 'mailto:' + user + '@' + domain;
+    });
+  }
+
   // Animation navbar au scroll
   const navbar = document.querySelector('.navbar');
 
