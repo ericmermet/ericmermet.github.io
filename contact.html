@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Éric Mermet</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <h1>Éric Mermet</h1>
+  <p>Ingénieur de recherche CNRS – Humanités numériques, géomatique & calcul scientifique</p>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="cv-detaille.html">CV Détaillé</a>
+    <a href="publications.html">Publications</a>
+    <a href="projets.html">Projets</a>
+    <a href="methodologie.html">Méthodologie</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="contact-section">
+    <h2>Contact</h2>
+    
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3><i class="fas fa-envelope"></i> Email</h3>
+        <p><a href="mailto:eric.mermet@ehess.fr">eric.mermet@ehess.fr</a></p>
+      </div>
+      
+      <div class="contact-card">
+        <h3><i class="fas fa-building"></i> Adresse professionnelle</h3>
+        <p>
+          Toulouse School of Economics - Research<br>
+          Pôle Data & Computing<br>
+          UMR CNRS 5314<br>
+          1 Esplanade de l'Université<br>
+          31080 Toulouse Cedex 6
+        </p>
+      </div>
+      
+      <div class="contact-card">
+        <h3><i class="fas fa-user-circle"></i> Profils académiques</h3>
+        <p>
+          <a href="https://orcid.org/" target="_blank">ORCID</a><br>
+          <a href="https://scholar.google.com/" target="_blank">Google Scholar</a><br>
+          <a href="https://hal.archives-ouvertes.fr/" target="_blank">HAL</a>
+        </p>
+      </div>
+      
+      <div class="contact-card">
+        <h3><i class="fas fa-globe"></i> Réseaux professionnels</h3>
+        <p>
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a><br>
+          <a href="https://github.com/" target="_blank">GitHub</a><br>
+          <a href="https://www.researchgate.net/" target="_blank">ResearchGate</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="expertise-contact">
+      <h3>Domaines d'expertise et collaboration</h3>
+      <ul>
+        <li><strong>Géomatique et SIG</strong> : analyses spatiales, cartographie, modélisation géographique</li>
+        <li><strong>Analyse de réseaux</strong> : réseaux de transport, réseaux sociaux, réseaux historiques</li>
+        <li><strong>Calcul scientifique</strong> : programmation scientifique, optimisation, parallélisation</li>
+        <li><strong>Science des données</strong> : analyse de données, machine learning, visualisation</li>
+        <li><strong>Humanités numériques</strong> : histoire quantitative, archéologie computationnelle</li>
+        <li><strong>Enseignement et formation</strong> : SIG, Python, cartographie, méthodes quantitatives</li>
+      </ul>
+    </div>
+    
+    <div class="collaboration-note">
+      <h3>Collaborations et projets</h3>
+      <p>
+        Je suis ouvert aux collaborations de recherche, aux projets interdisciplinaires 
+        et aux partenariats académiques et industriels dans les domaines des sciences 
+        humaines et sociales numériques, de la géomatique et du calcul scientifique.
+      </p>
+      <p>
+        N'hésitez pas à me contacter pour discuter de vos projets, besoins en formation 
+        ou questions méthodologiques.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Éric Mermet</p>
+</footer>
+
+<style>
+.contact-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.contact-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-left: 4px solid var(--primary-color);
+}
+
+.contact-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-card i {
+  color: var(--accent-color);
+}
+
+.contact-card a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-card a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.expertise-contact, .collaboration-note {
+  background: var(--background-light);
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.expertise-contact h3, .collaboration-note h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.expertise-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.expertise-contact li {
+  margin-bottom: 0.8rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.expertise-contact li::before {
+  content: '▸';
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+}
+
+.collaboration-note p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+</style>
+
+<script src="js/script.js"></script>
+</body>
+</html>

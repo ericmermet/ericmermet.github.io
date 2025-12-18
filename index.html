@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Éric Mermet – Ingénieur de recherche CNRS</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+<body>
+  <!-- Navigation fixe -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#about" class="nav-logo">EM</a>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">Accueil</a></li>
+        <!--<li><a href="cv-detaille.html" class="nav-link">CV Détaillé</a></li> -->
+        <li><a href="#about" class="nav-link">Profil</a></li>
+        <li><a href="#experience" class="nav-link">Parcours</a></li>
+        <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#projects" class="nav-link">Projets</a></li>
+        <li><a href="#skills" class="nav-link">Compétences</a></li>
+        <li><a href="#responsibilities" class="nav-link">Responsabilités</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section À propos avec photo -->
+  <section id="about" class="section about-hero">
+    <div class="container">
+      <div class="about-header">
+        <div class="about-photo">
+          <div class="photo-wrapper">
+            <i class="fas fa-user"></i>
+            <img src="img/photo_em.jpg" alt="Photo de Éric Mermet" class="profile-photo">
+          </div>
+        </div>
+        <div class="about-info">
+          <h1>Éric Mermet</h1>
+          <p class="about-title">Ingénieur de recherche CNRS</p>
+          <p class="about-subtitle">Calcul scientifique, humanités numériques et géomatique</p>
+          
+          <div class="social-links">
+            <a href="https://github.com/ericmermet/" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://orcid.org/0000-0001-9186-0492" target="_blank" rel="noopener noreferrer" title="ORCID">
+              <i class="fab fa-orcid"></i>
+            </a>
+            <a href="https://cv.hal.science/eric-mermet" target="_blank" rel="noopener noreferrer" title="HAL-SHS">
+              <i class="ai ai-hal"></i>
+            </a>
+            <a href="https://fr.linkedin.com/in/%C3%A9ric-mermet-49185590" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/profile/ericmermet.bsky.social" target="_blank" rel="noopener noreferrer" title="Bluesky">
+              <svg class="bluesky-icon" viewBox="0 0 360 320" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M180 142c-16.3-35.4-39.7-63.9-72.6-82.3C66.4 34.5 35.8 28 13.7 30.9c-10 1.3-11.2 3.8-11.2 9.9v43.6c0 14.8 3.7 28.4 11.1 40.7 16.2 27.1 40.2 47.2 71.6 60.1-31.4 12.9-55.4 33-71.6 60.1-7.4 12.3-11.1 25.9-11.1 40.7v43.6c0 6.1 1.2 8.6 11.2 9.9 22.1 2.9 52.7-3.6 93.7-29.8 32.9-18.4 56.3-46.9 72.6-82.3 16.3 35.4 39.7 63.9 72.6 82.3 41 26.2 71.6 32.7 93.7 29.8 10-1.3 11.2-3.8 11.2-9.9v-43.6c0-14.8-3.7-28.4-11.1-40.7-16.2-27.1-40.2-47.2-71.6-60.1 31.4-12.9 55.4-33 71.6-60.1 7.4-12.3 11.1-25.9 11.1-40.7V40.8c0-6.1-1.2-8.6-11.2-9.9-22.1-2.9-52.7 3.6-93.7 29.8-32.9 18.4-56.3 46.9-72.6 82.3z"/>
+              </svg>
+            </a>
+          </div>
+          
+          <div class="about-tags">
+            <span class="tag">Python</span>
+            <span class="tag">SIG</span>
+            <span class="tag">Analyse de réseaux</span>
+            <span class="tag">Humanités numériques</span>
+            <span class="tag">Calcul scientifique</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Docteur en informatique (IGN - Université Paris Est, 2011) spécialisé dans l'analyse structurelle 
+            des réseaux de transport et les données géospatiales. Je développe des outils et méthodes innovantes 
+            pour les humanités numériques, l'analyse spatiale et le calcul scientifique pour les Sciences Humaines et Sociales et plus particulièrement l'archéologie et l'histoire.
+          </p>
+          <p>
+            Actuellement ingénieur de recherche au CNRS (laboratoire ArScAn), j'ai précédemment 
+            codirigé les activités Data & Computing de TSE-R et la plateforme géomatique de l'EHESS.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Années au CNRS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100+</span>
+            <span class="stat-label">Heures d'enseignement/an</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Publications récentes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Section Expérience -->
+<section id="experience" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Parcours professionnel</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">Depuis 2025</div>
+                <div class="timeline-content">
+                    <h3>Ingénieur de recherche en calcul scientifique (BAP E + BAP D)</h3>
+                    <p class="timeline-company">UMR ArScAn (Archéologies et Sciences de l'Antiquité) - CNRS</p>
+                    <p>Développement d'outils, de méthodes d'analyse spatiale et de calcul scientifique appliqués à l'Archéologie.</p>
+                    <p>Coordinateur du consortium Huma-Num Projets Time Machine.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2022 – 2025</div>
+                <div class="timeline-content">
+                    <h3>Ingénieur de recherche CNRS 1ère classe (BAP E + BAP D)</h3>
+                    <p class="timeline-company">UMR Toulouse School of Economics - Research (TSE-R)</p>
+                    <p>Responsable du Pôle Data & Computing, expert en calcul scientifique. Correspondant DPO Recherche pour TSE. Enseignements GIS for economists, Introduction to Python (machine learning, data analysis, webscraping, parallel computing & HPC).</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2015 – 2022</div>
+                <div class="timeline-content">
+                    <h3>Ingénieur de recherche CNRS 2ème classe (BAP D)</h3>
+                    <p class="timeline-company">Centre d'Analyse et de Mathématique Sociales (EHESS)</p>
+                    <p>Responsable de la plateforme géomatique de l'EHESS. Aide et soutien scientifique et technique aux chercheurs, management transversal de projets de recherche, aide aux montages de projets.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2013 – 2015</div>
+                <div class="timeline-content">
+                    <h3>Ingénieur d'études plate-forme SIG</h3>
+                    <p class="timeline-company">École des Hautes Études en Sciences Sociales (EHESS)</p>
+                    <p>Aide et soutien scientifique et technique aux chercheurs. Management transversal de projets de recherche, aide aux montages de projets.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2011 – 2012</div>
+                <div class="timeline-content">
+                    <h3>Post-doctorant</h3>
+                    <p class="timeline-company">IGN/COGIT – Hôpital Henri Mondor/SAMU94</p>
+                    <p>Projet ANR Posamu : Amélioration des performances et optimisation systémique de la chaîne médicale d'urgence. Développement d'interface programmatique, optimisation d'itinéraires à partir d'une base de données GPS historisées.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2007 – 2011</div>
+                <div class="timeline-content">
+                    <h3>Doctorant en informatique</h3>
+                    <p class="timeline-company">Institut Géographique National – laboratoire COGIT</p>
+                    <p>Analyse et exploration structurelle des réseaux de transport. Thèse soutenue en 2011.</p>
+                </div>
+            </div>
+      </div>
+
+      <div class="education">
+        <h3>Formation</h3>
+        <div class="education-item">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <h4>Doctorat en Informatique (2011)</h4>
+            <p>IGN - Université Paris Est - Analyse structurelle des propriétés structurelles des réseaux de transport</p>
+          </div>
+        </div>
+        <div class="education-item">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <h4>Master recherche Sciences de l'Ingénieur (2005)</h4>
+            <p>Signaux, systèmes, images et robotique - Option robotique et systèmes intelligents (Paris VI)</p>
+          </div>
+        </div>
+        <div class="education-item">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <h4>DEA Intelligence Artificielle (2004)</h4>
+            <p>Paris VIII – Paris XIII</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Publications -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2 class="section-title">Publications récentes</h2>
+      <div class="publications-grid">
+      <article class="publication-card">
+        <div class="publication-year">2025</div>
+        <h3>Association between emergency medical services' response times, low socioeconomic status, and poorer outcomes in out-of-hospital cardiac arrest</h3>
+        <p class="publication-journal">avec M. Heidet et al., European Journal of Emergency Medicine n°32</p>
+        <a href="https://journals.lww.com/euro-emergencymed/abstract/2025/02000/association_between_emergency_medical_services_.11.aspx" target="_blank" rel="noopener noreferrer" class="publication-link" title="Lire l'article">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+      </article>
+      <article class="publication-card">
+        <div class="publication-year">2025</div>
+        <h3>Un baño ritual judío en el barrio toledano de Valdecaleros</h3>
+        <p class="publication-journal">Jean Passini, Éric Mermet, Angelo Odore</p>
+        <a href="https://hal.science/hal-05393628v1/file/Un%20ban%CC%83o%20ritual%20judi%CC%81o-articulochat.pdf" target="_blank" rel="noopener noreferrer" class="publication-link" title="Lire l'article">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+      </article>
+      <article class="publication-card">
+        <div class="publication-year">2024</div>
+        <h3>Vers un référentiel géohistorique diachronique, Paris 1900-2020 - Les îlots, les voies, les adresses</h3>
+        <p class="publication-journal">E. Mermet et al., Revue d'Histoire Urbaine (accepté, à paraître)</p>
+        <a href="https://shs.cairn.info/article/RHU_070_0039" target="_blank" rel="noopener noreferrer" class="publication-link" title="Lire l'article">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+      </article>
+      <article class="publication-card">
+        <div class="publication-year">2024</div>
+        <h3>Network Analysis of a Maritime Trade in Medieval Japan</h3>
+        <p class="publication-journal">D. Tatoyann, A. Kobiljski, H. Yamashita, É. Mermet, Journal of Historical Network Research 10 (1)</p>
+        <a href="https://hal.science/hal-04870442v1/file/JHNR%202024%20article.pdf" target="_blank" rel="noopener noreferrer" class="publication-link" title="Lire l'article">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+      </article>
+      <article class="publication-card">
+        <div class="publication-year">2024</div>
+        <h3>Adresses, géocodage et information historique - Quelques réalisations de Paris Time Machine</h3>
+        <p class="publication-journal">Jean-Luc Pinol, Eric Mermet, Cartes & Géomatique (n°255)</p>
+        <a href="https://hal.science/hal-05056505v1/file/Adresses_ge%CC%81ocodage_Information%20historqiue.pdf" target="_blank" rel="noopener noreferrer" class="publication-link" title="Lire l'article">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+      </article>
+      <article class="publication-card">
+        <div class="publication-year">2023</div>
+        <h3>What could perceptive and sensitive mapping be used for? Examples of use in urban planning projects</h3>
+        <p class="publication-journal">C. Domingues, L. Jolivet, E Mermet, Abstracts of the ICA 6, 55</p>
+        <a href="https://ica-abs.copernicus.org/articles/6/55/2023/ica-abs-6-55-2023.pdf" target="_blank" rel="noopener noreferrer" class="publication-link" title="Lire l'article">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+      </article>
+      <article class="publication-card">
+        <div class="publication-year">2023</div>
+        <h3>Topomine: une application web d'exploration itérative de la toponymie française</h3>
+        <p class="publication-journal">E. Mermet, E. Grosso, working paper, hal-shs</p>
+        <a href="https://shs.hal.science/halshs-03931476" target="_blank" rel="noopener noreferrer" class="publication-link" title="Lire l'article">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+      </article>
+      </div>
+      <div class="section-cta">
+      <a href="publications.html" class="btn btn-primary">
+        <i class="fas fa-book-open"></i> Voir toutes les publications
+      </a>
+      </div>
+    </div>
+  </section>
+
+<!-- Section Projets -->
+<section id="projects" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Projets</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Paris Time Machine</h3>
+                    <div class="project-links">
+                        <a href="https://github.com/ericmermet/" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="http://app.ptm.huma-num.fr/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <p>Consortium Huma-Num (2019-2022) & Projets Time Machine (2023-2027). Constitution de référentiels de données géohistoriques, développement d'outils web pour les historiens.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Web GIS</span>
+                    <span class="tech-tag">QGIS Plugins</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>ANR TITULI</h3>
+                </div>
+                <p>Porteur : Davide Gherdevich (Univ. Versailles Saint-Quentin, Dypac). Pour une étude interdisciplinaire des rouleaux des morts (viiie s.-1536) (2024-2028).</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Histoire médiévale</span>
+                    <span class="tech-tag">Analyse de réseaux</span>
+                    <span class="tech-tag">Codicologie</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>ANR WAT-IMPACTS</h3>
+                </div>
+                <p>Approches de long terme pour évaluer les impacts économiques, sociaux et environnementaux des contextes de rareté de l'eau en situation d'incertitudes (2024-2027).</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Économie</span>
+                    <span class="tech-tag">Analyse spatiale</span>
+                    <span class="tech-tag">Big Data</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>ANR PARCEDES</h3>
+                </div>
+                <p>Étudier l'organisation archéogéographique et les évolutions des parcellaires agraires de la Protohistoire à nos jours (2021-2025).</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Archéologie</span>
+                    <span class="tech-tag">SIG</span>
+                    <span class="tech-tag">Analyse diachronique</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>ERC J-Innovatech</h3>
+                </div>
+                <p>Comment le Japon est devenu une puissance industrielle, XVème – XIXème s. (2021-2026). Collaboration avec A. Kobiljski (CNRS, EHESS).</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Histoire économique</span>
+                    <span class="tech-tag">Analyse de réseaux</span>
+                    <span class="tech-tag">Visualisation</span>
+                </div>
+            </div>
+        </div>
+        <div class="section-cta">
+          <a href="projets.html" class="btn btn-primary">
+            <i class="fas fa-project-diagram"></i> Voir tous les projets
+          </a>
+        </div>
+    </div>
+</section>
+
+<!-- Section Applications -->
+<section id="applications" class="section">
+    <div class="container">
+      <h2 class="section-title">Applications développées</h2>
+      <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-logo">
+        <img src="https://app.ptm.huma-num.fr/topomine/img/topomine-logo-official.png" alt="Topomine logo" style="width:200px; max-width: 260px;">
+        </div>
+        <div class="project-header">
+        <!--<h3>Topomine</h3>-->
+        <div class="project-links">
+        <a href="http://app.ptm.huma-num.fr/topomine" target="_blank">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+        </div>
+        </div>
+        <p>Application web d'exploration itérative de la toponymie française. Outil développé dans le cadre du consortium Paris Time Machine.</p>
+        <div class="project-tech">
+        <span class="tech-tag">Toponymie</span>
+        <span class="tech-tag">Python / Flask</span>
+        <span class="tech-tag">Regex</span>
+        <span class="tech-tag">PostGIS</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-logo">
+        <img src="https://app.ptm.huma-num.fr/cassinet/img/cassinet-logo-white.webp" alt="Cassinet logo" style="max-width: 260px;">
+        </div>
+        <div class="project-header">
+        <!--<h3>Cassinet</h3>-->
+        <div class="project-links">
+        <a href="http://app.ptm.huma-num.fr/cassinet" target="_blank">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+        </div>
+        </div>
+        <p>Application web pour le calcul des plus courts chemins sur réseau historique basé sur les cartes de Cassini.</p>
+        <div class="project-tech">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">PostGIS</span>
+        <span class="tech-tag">Algorithmes de graphes</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-logo">
+        <img src="https://app.ptm.huma-num.fr/cartoquete/img/logo_cartoquete.webp" alt="Cartoquete logo" style="max-width: 260px;">
+        </div>
+        <div class="project-header">
+        <h3>Cartoquete</h3>
+        <div class="project-links">
+        <a href="http://app.ptm.huma-num.fr/cartoquete" target="_blank">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+        </div>
+        </div>
+        <p>Application de recherche centralisée de cartes sur Gallica et différentes archives départementales.</p>
+        <div class="project-tech">
+        <span class="tech-tag">Cartes & Plans</span>
+        <span class="tech-tag">Gallica</span>
+        <span class="tech-tag">Python / Flask</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-logo">
+        <img src="https://app.ptm.huma-num.fr/galligeo/img/logo_galligeo.png" alt="Galligeo logo" style="max-width: 260px;">
+        </div>
+        <div class="project-header">
+        <!--<h3>Galligeo</h3> -->
+        <div class="project-links">
+        <a href="http://app.ptm.huma-num.fr/galligeo" target="_blank">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+        </div>
+        </div>
+        <p>Outil de géoréférencement en ligne de cartes issues de Gallica, avec publications sur Nakala</p>
+        <div class="project-tech">
+        <span class="tech-tag">Géoréférencement</span>
+        <span class="tech-tag">Gallica</span>
+        <span class="tech-tag">Cartes & Plans</span>
+        <span class="tech-tag">Nakala</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-logo">
+        <img src="https://dev.ptm.huma-num.fr/monte-et-descends/src/assets/logo_small.png" alt="Monte et descends logo" style="max-width: 260px;">
+        </div>
+        <div class="project-header">
+        <h3>Monte et descends</h3>
+        <div class="project-links">
+        <a href="https://dev.ptm.huma-num.fr/monte-et-descends/" target="_blank">
+        <i class="fas fa-external-link-alt"></i>
+        </a>
+        </div>
+        </div>
+        <p>Outil de calcul de least cost path à partir de données Mnt</p>
+        <div class="project-tech">
+        <span class="tech-tag">MNT</span>
+        <span class="tech-tag">Least cost path</span>
+        <span class="tech-tag">BD Alti IGN / SRTM</span>
+        </div>
+      </div>
+      </div>
+    </div>
+</section>
+
+  <!-- Section Compétences -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Compétences & Outils</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Développement</h3>
+          <div class="skills-list">
+            <span class="skill-item">Python</span>
+            <span class="skill-item">Julia</span>
+            <span class="skill-item">C/C++</span>
+            <span class="skill-item">Java</span>
+            <span class="skill-item">JavaScript/TypeScript</span>
+            <span class="skill-item">HTML/CSS</span>
+            <span class="skill-item">PHP</span>
+            <span class="skill-item">SQL</span>
+            <span class="skill-item">Matlab</span>
+            <span class="skill-item">Flask</span>
+            <span class="skill-item">APIs REST</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-map"></i> SIG & Géomatique</h3>
+          <div class="skills-list">
+            <span class="skill-item">QGIS</span>
+            <span class="skill-item">PostGIS</span>
+            <span class="skill-item">Leaflet</span>
+            <span class="skill-item">Géocodage</span>
+            <span class="skill-item">Géoréférencement</span>
+            <span class="skill-item">Analyse spatiale</span>
+            <span class="skill-item">Cartographie web</span>
+            <span class="skill-item">Traitements vecteurs/raster</span>
+            <span class="skill-item">Modélisation des réseaux</span>
+            <span class="skill-item">Traitements toponymes</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-brain"></i> Analyse de données</h3>
+          <div class="skills-list">
+            <span class="skill-item">Analyse de réseaux</span>
+            <span class="skill-item">Analyse Statistiques</span>
+            <span class="skill-item">Machine Learning</span>
+            <span class="skill-item">Théorie des graphes</span>
+            <span class="skill-item">Complexité algorithmique</span>
+            <span class="skill-item">Intelligence artificielle</span>
+            <span class="skill-item">Visualisation</span>
+            <span class="skill-item">Workflow reproductible</span>
+            <span class="skill-item">Big Data</span>
+            <span class="skill-item">Calcul parallèle & HPC</span>
+            <span class="skill-item">Webscraping</span>
+          </div>
+        </div>
+      </div>      <div class="section-cta">
+        <a href="methodologie.html" class="btn btn-primary">
+          <i class="fas fa-tools"></i> Voir méthodologie et outils détaillés
+        </a>
+      </div>    </div>
+  </section>
+
+  <!-- Section Responsabilités & Activités -->
+  <section id="responsibilities" class="section">
+    <div class="container">
+      <h2 class="section-title">Responsabilités & Activités</h2>
+      <div class="responsibilities-grid">
+        <div class="responsibility-card">
+          <h3><i class="fas fa-journal-whills"></i> Comités éditoriaux</h3>
+          <ul>
+            <li>Membre du comité de lecture - <strong>Histoire et Mesure</strong></li>
+            <li>Membre du comité de rédaction - <strong>Archéologies numériques</strong> (ISTE, Open Edition)</li>
+            <li>Relecteur - <strong>Transaction in GIS</strong> (Wiley Online Library)</li>
+            <li>Relecteur - <strong>ISPRS International Journal of Geo-Information</strong></li>
+          </ul>
+        </div>
+        <div class="responsibility-card">
+          <h3><i class="fas fa-chalkboard-teacher"></i> Enseignement & Formation</h3>
+          <ul>
+            <li><strong>Introduction to GIS at TSE</strong> (2022-2025) - 24h/an</li>
+            <li><strong>Introduction to Python</strong> (machine learning, data analysis, webscraping, HPC)</li>
+            <li><strong>BUT 3 Communication</strong> (2023-2025) - Python, cartographie et SIG - 48h/an</li>
+            <li><strong>Atelier SIG & Humanités numériques</strong> (avec lab. Framespa) - 1j/mois</li>
+            <li><strong>M2 Territoire Espace et Sociétés</strong> (EHESS) - séminaire SIG</li>
+          </ul>
+        </div>
+        <div class="responsibility-card">
+          <h3><i class="fas fa-users"></i> Encadrement</h3>
+          <ul>
+            <li><strong>Jacques Baggio</strong> - Thèse EHESS (2023-en cours)</li>
+            <li><strong>Colin Prudhomme</strong> - Master HN École nationale des chartes – PSL (2023)</li>
+            <li><strong>Emilien Arnaud</strong> - Master HN École nationale des chartes – PSL (2022)</li>
+            <li><strong>Sevil Seten</strong> - Master 2 TES EHESS (2019)</li>
+            <li><strong>Daphné Bostancıoğlu</strong> - Master 2 TES EHESS (2019)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>N'hésitez pas à me contacter pour toute collaboration ou question !</p>
+          <div class="contact-links">
+            <a href="mailto:eric.mermet@tse-fr.eu" class="contact-link">
+              <i class="fas fa-envelope"></i>
+              <span>eric.mermet@cnrs.fr</span>
+            </a>
+            <a href="https://orcid.org/0000-0001-9186-0492" target="_blank" class="contact-link">
+              <i class="fab fa-orcid"></i>
+              <span>ORCID</span>
+            </a>
+            <a href="https://github.com/ericmermet" target="_blank" class="contact-link">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ericmermet" target="_blank" class="contact-link">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>2025 Éric Mermet@CNRS</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
